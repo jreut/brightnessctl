@@ -5,7 +5,7 @@ LDLIBS = -lm
 PREFIX ?= /usr
 BINDIR = ${DESTDIR}${PREFIX}/bin
 
-INSTALL_UDEV_RULES = 0
+INSTALL_UDEV_RULES = 1
 
 INSTALL_UDEV_1 = install_udev_rules
 UDEVDIR ?= /lib/udev/rules.d
